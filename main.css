@@ -58,6 +58,7 @@ main {
 	background-color: var(--blue);
 	color: #fff;
 	border: none;
+	text-decoration: none;
 
 	&:hover {
 		background-color: var(--blue-hover);
@@ -73,15 +74,3 @@ main {
 	-ms-user-select: none;
 }
 
-.fu {
-	background-color: black;
-	color: white;
-	font-size: 10rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	height: 100dvh;
-	padding: 1rem;
-	text-align: center;
-}

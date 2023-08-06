@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="shop.css">
+	<title>Buy</title>
+</head>
+
+<body>
+	<h1>Where should we send your order?</h1>
+	<form action="">
+		<label for="firstName">First name
+		</label>
+		<input id="firstName" type="text">
+		<label for="lastName">Last name
+		</label>
+		<input id="lastName" type="text">
+
+		<label for="address">Address</label>
+		<input id="address" type="text">
+		<div class="postcode-area">
+			<label for="postalCode">Postal code
+				<input id="postalCode" type="number">
+			</label>
+
+			<label for="area">Area
+				<input id="area" type="text">
+			</label>
+
+		</div>
+		<h2>What’s your contact information?</h2>
+		<label for="email">Email</label>
+		<input id="email" type="email">
+		<label class="email-desc" type="email">Get information about the shipment by email.</label>
+		<span class="separator">OR</span>
+		<label for="phone">Mobile phone</label>
+		<input id="phone" type="text">
+		<label class="phone-desc" for="phone">Get information about the shipment by sms.</label>
+		<button type="submit" onclick="func()">Buy</button>
+	</form>
+	<script>
+		function func() {
+			document.body.innerHTML = 'This story will be continued';
+			document.body.className = 'fu';
+		}
+	</script>
+</body>
+
+</html>
